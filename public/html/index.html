@@ -1,0 +1,53 @@
+<!-- BOILERPLATE FOR PAUL HUMPHREY .html FILES -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8"/>
+        <title>Mongo To Do List</title>
+        <!-- mobile ready -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- bootstrap css -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+        <!-- my css -->
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+
+    <body class="container">
+        <hr>
+        <h1>Mongo To Do List</h1>
+
+        <form id="new-todo-form">
+            <p>Please fill in the blank with a task to do and then click on the "submit" button.</p>
+            <input name="todo-item" placeholder="add item to do...">
+            <input type="submit" value="submit">
+        </form>
+        <hr>
+        <h3>List of tasks to do:</h3>
+        <em class="small">You can click each list item's text to "cross it off your list," or you can click the button below it to delete it from the list entirely.</em>
+        <br><br>
+
+        <ul id="todo-list">
+
+        </ul>
+
+        <hr>
+        <img src="/images/blazing-saddles-mongo.png" class="responsive" width="150px">
+        <small><em>"Mongo like candy..."</em></small>
+        <br><br>
+        <!-- jQuery js -->
+        <script
+        src="http://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+        <!-- bootstrap js -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!-- my js -->
+        <script src="/js/main.js"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,15 @@
+/*BOILERPLATE FOR PAUL HUMPHREY .css FILES*/
+
+body {
+    font-family: 'EB Garamond', serif;
+    background-color: tan;
+    font-size: 2em;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+li {
+    font-size: 1.25em;
+}
